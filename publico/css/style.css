@@ -1,0 +1,446 @@
+html {
+    font-family: 'Patrick Hand', cursive;
+    height: 100%;}
+
+input {
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    width: 30rem;
+    height: 1.5rem;}
+
+body {
+    background-color: #EAEAEA;
+    margin: 0;
+    min-width: 1300px;}
+
+li {font-size: 1.5rem;}
+
+p {
+    margin: 0px;
+    padding: 0px;
+    margin-right: 0.5rem;
+    font-size: 1.5rem;}
+
+h1 {
+    margin: 0;
+    font-size: 2.5rem;}
+
+a {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;}
+
+h3 {color: orange;
+    font-size: 2rem;
+    margin: 0px;
+    padding: 0px;}
+
+h3:hover {color: #FF620E;}
+
+h2 {
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-size: 1.8rem;}
+
+header {display: flex;
+    background-color: orange;}
+
+footer {
+    background-color: orange;
+    display: flex;
+    align-content: center;
+    clear: both;
+    position: relative;}
+
+main {
+    max-width: 76.5rem;
+    margin: auto;
+    min-height: 81vh;}
+
+.logo-content {display: flex;}
+
+.sua-conta-link {
+    margin-top: 0.7rem;
+    color: black;}
+
+.sua-conta-texto {
+    color: black;}
+
+.erro {
+    width:25rem;}
+
+.erro p {
+    color: red;
+    font-size: 1rem;}
+
+.sua-conta-texto:hover {
+    color: #FF620E;}
+
+.image-logo-header {
+    margin: 1rem;
+    height: 60px;}
+
+.site-nome {
+    color: white;
+    margin-top: 1.2rem;}
+
+.receitas-home {
+    width:100%;
+    height:100%;
+    overflow:auto;}
+
+.mensagem-alerta p {
+    color: #FF620E;
+}
+
+.menu-direita {
+    display: flex;
+    margin-left: auto;
+    margin-right: 0;}
+
+.image-receitas-header {
+    height: 60px;}
+
+.receita {
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  float: left;
+  margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+  width: 22rem;}
+
+.nao-publicou {
+    color: black;
+    text-align: center;}
+
+.contatos {margin-right: 1rem;}
+
+.receita-image {
+    width: 19rem;
+    height: 19rem;}
+
+.mensagem-e-lixo {
+    display: flex;
+}
+
+.sair-conta {
+    margin-left: 35rem;
+    margin-right: 0;}
+
+.banner-image {
+    width: 100%;}
+
+.contatos-footer {
+    margin-left: auto;
+    margin-right: 0;
+    display: flex;}
+
+.contatos-image {
+    width: 50px;
+    margin-right: 0.5rem;}
+
+.contatos-content {
+    display: flex;
+    margin-right: 1rem;}
+
+.contatos-texto {color: black;}
+
+.contatos-footer {margin-top: 1rem;}
+
+.autor-receita-caixa {
+    display: flex;}
+
+.autor-receita {
+    font-size: 1.5rem;
+    color: black;}
+
+.text-receitas-header {
+    font-size: 2.3rem;
+    color: white;
+    margin-bottom: 1rem;}
+
+.conta-menu {
+    margin-top: 0.4rem;
+    margin-left: 2rem;
+    margin-right: 2rem;}
+
+.entrar-link {
+    margin-bottom: 1rem;
+    margin-left: 1.2rem;
+    color: black;}
+
+.criar-conta-text {
+    color: black;
+    font-size: 1.5rem;}
+
+.criar-conta-text:hover {color: #FF620E;}
+
+.entrar-text {
+    font-size: 1.5rem;
+    color: black;
+    margin-left: 0.2rem;}
+
+.entrar-text:hover {color: #FF620E;}
+
+.text-receitas-header:hover {color: #FF620E;}
+
+.autor-receita:hover {color: #FF620E;}
+
+.todas-as-receitas-link {margin-top: 1.2rem;}
+
+.conta-box-1 {
+    background-color: white;
+    border-radius: 20px;
+    max-width: 62rem;
+    margin: auto;}
+
+.conta-box-2 {
+    margin: 3rem 3rem 3rem 3rem;
+    padding: 1rem 1rem 1rem 1rem;}
+
+.submit-entrar-criar {
+    width: 5rem;
+    font-family: 'Patrick Hand', cursive;
+    margin-left: 22rem;}
+
+.submit-receita:hover {
+    cursor:pointer;}
+
+.submit-entrar-criar:hover {cursor: pointer;}
+
+.opcoes-receitas {
+    margin-top: 1rem;
+    display: flex;}
+
+.submit {
+    width: 5rem;
+    font-family: 'Patrick Hand', cursive;
+    margin-top: 0.6rem;}
+
+.submit:hover {cursor: pointer;}
+
+.por-data {
+    margin-right: 0;
+    margin-left: auto;
+    display: flex;
+    background-color: orange;
+    border-radius: 10px;
+    padding: 0 0.5rem 0 0.5rem}
+
+.por-data button{
+    height: 2rem;
+    margin-right: 0.5rem;
+    border-radius: 10px;
+    margin-top: 0.6rem;}
+
+.por-data button:hover {cursor: pointer;}
+
+.por-data p {
+    margin-top: 0.6rem;
+    color: white;}
+
+.filtrar {
+    background-color: orange;
+    border-radius: 10px;
+    padding: 0 0.5rem 0 0.5rem;}
+
+.paginacao-button-voltar {
+    font-size: 24px;
+    border-radius: 20px 20px 0 0;
+    height: 3rem;
+    color: white;
+    border: none;
+    padding: 0rem 0.5rem 0rem 0.5rem;
+    background-color: orange;
+    width: 15rem;}
+
+.paginacao-button-avancar {
+    font-size: 24px;
+    border-radius: 20px 20px 0 0;
+    height: 3rem;
+    color: white;
+    border: none;
+    padding: 0rem 0.5rem 0rem 0.5rem;
+    background-color: orange;
+    width: 15rem;}
+
+.paginacao-form {
+    width: 16rem;
+}
+
+.paginacao-button-avancar:hover {
+    background-color: #FF620E;
+    cursor: pointer;}
+
+.quantidade-de-receitas-e-usuarios h2{
+    color: orange;
+}
+
+.paginacao-button-voltar:hover {
+    background-color: #FF620E;
+    cursor: pointer;}
+
+.data {font-size: 1.2rem;}
+
+.foto-titulo-receita {
+    margin-top: 1rem;
+    display: flex;
+    background-color: orange;
+    border-radius: 50px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 1.5rem;}
+
+.imagem-receita {border-radius: 30px;}
+
+.titulo-receita {
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;}
+
+.imagem-receita {
+    margin-left: auto;
+    margin-right: 0;
+    width: 70%;
+    display: block;}
+
+.ingredientes {
+    background-color: white;
+    border-radius: 30px;
+    margin-top: 1rem;
+    padding: 1.5rem;}
+
+.passos {
+    background-color: white;
+    border-radius: 30px;
+    margin-top: 1rem;
+    padding: 1.5rem;}
+
+.titulo-passo-a-passo {
+    color: orange;
+    margin-bottom: 1rem;}
+
+.titulo-ingredientes {color: orange;}
+
+.comentario-usuario{
+    margin-left: 1rem;
+}
+
+.comentarios {
+    background-color: orange;
+    border-radius: 30px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 1.5rem;}
+
+.comentarios-text {color: white;}
+
+.paginacao {
+    width:100%;
+    margin-botton:1rem;
+    display: flex;
+}
+
+.mensagem-e-lixo p {
+    width: 70rem;
+}
+
+.comentario {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 30px;
+    margin: 1rem 0 1rem 0;}
+
+.nome-usuario-box {
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;}
+
+.nome-usuario-box img {width: 50px;}
+
+.nome-usuario {
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    font-size: 1.7rem;
+    color: orange;}
+
+.usuario-e-data {display: flex;}
+
+.data-comentario {
+    margin-right: 0;
+    margin-left: auto;}
+
+.comentar {
+    height: 5rem;
+    width: 100%;
+    max-height: 5rem;
+    max-width: 100%;
+    min-height: 5rem;
+    min-width: 100%;}
+
+.submit-comentario {
+    width: 5rem;}
+
+.submit-comentario:hover {
+    cursor: pointer;}
+
+.editar-icon {
+    width: 50px;}
+
+.editar-link {
+    margin-right: 0;
+    margin-left: auto;}
+
+.editar-box {display: flex;}
+
+.sua-conta {
+    padding: 0.5rem;
+    background-color: orange;
+    display: flex;
+    border-radius: 30px;}
+
+.sua-conta h1 {
+    font-size: 2.5rem;
+    color: white;}
+
+.sua-conta-icon {width: 100px;}
+
+.suas-receitas h1 {margin-top: 1rem;}
+
+.publicar {
+    padding: 1rem;
+    margin-top: 1rem;
+    background-color: white;
+    border-radius: 30px;}
+
+.publicar h1 {margin-bottom: 1rem;}
+
+.nome-usuario-box-2 {display: flex;}
+
+.nome-usuario:hover {color: #FF620E;}
+
+.publicar-link {
+    padding: 0.2rem;
+    border-radius: 30px;
+    background-color: white;
+    display: flex;
+    margin-right: 0;
+    margin-left: auto;
+    margin-top: 0.8rem;
+    height: 4.2rem;}
+
+.publicar-link:hover {background-color: #FF620E;}
+
+.publicar-link h2 {
+    margin-left: 0.5rem;
+    margin-top: 0.8rem;
+    color: black;}
+
+.publicar-icon {
+    width: 70px;
+    height: 70px;}
